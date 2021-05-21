@@ -23,6 +23,8 @@ namespace WPFHellWorld
         public MainWindow()
         {
             InitializeComponent();
+            myButton.FontSize = 50;
+            myButton.Content = "Denis"; 
         }
     }
 }

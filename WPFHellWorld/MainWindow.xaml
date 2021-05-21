@@ -9,7 +9,9 @@
     <Grid>
         <StackPanel>
             <Label HorizontalAlignment="Center">Hello Denis</Label>
-            <Button>click me</Button>
+            <Button
+                x:Name="myButton"
+                Content="press me"></Button>
         </StackPanel>
     </Grid>
 </Window>
